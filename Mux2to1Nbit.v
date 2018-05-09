@@ -1,4 +1,4 @@
-module Mux2to1Nbit (F, S, I0, I1)
+module Mux2to1Nbit (F, S, I0, I1);
 parameter N = 64;
 input S;
 input [N-1:0] I0, I1;
